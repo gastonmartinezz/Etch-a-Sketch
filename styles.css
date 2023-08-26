@@ -1,0 +1,62 @@
+body {
+    background-color: #f6f6f6;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10vh;
+}
+
+h1, .board1, .mode {
+    display: flex;
+    justify-content: center;
+}
+
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px;
+    gap: 10px;
+}
+
+button {
+    border-radius: 6px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.gray {
+    background-color: gray;
+    color: white;
+}
+
+.eraser {
+    background-color: white;
+}
+
+.rainbow {
+    background-color: #ff1493;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);;
+    color: white;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding-top: 2px;
+    gap: 5px;
+}
+
+.error {
+    margin: 5px;
+}
